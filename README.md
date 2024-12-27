@@ -73,19 +73,19 @@
 
 ## Diagramme de Cas d'Utilisation
 Voici un diagramme de cas d'utilisation pour un projet de site Web de commerce électronique :
-![diagramme-d'utilisation](diagramme-d'utilisation.jpeg)
+![diagramme-d'utilisation](Diagrammes/diagramme-d'utilisation.jpeg)
 
 ## Diagramme de Classe
 Le diagramme de classe pour un site Web de commerce électronique décrit simplement la structure de la classe du site Web de commerce électronique, les attributs, les méthodes ou les opérations, la relation entre les objets.
-![diagramme-de](diagramme-de-classe.png)
+![diagramme-de](Diagrammes/diagramme-de-classe.png)
 
 ## Diagrammes de sequence
 ### Diagramme de sequence du Website
-![Diagrame de sequence](diagramme-de-sequence.png)
+![Diagrame de sequence](Diagrammes/diagramme-de-sequence.png)
 ### Diagramme de sequence d'Admin
-![Diagrame de sequence](diagramme-de-sequence-admin.png)
+![Diagrame de sequence](Diagrammes/diagramme-de-sequence-admin.png)
 ### Diagramme de sequence de Paiment
-![Diagrame de sequence](diagramme-de-sequence-paiment.png)
+![Diagrame de sequence](Diagrammes/diagramme-de-sequence-paiment.png)
 ## Diagrammes d'activite
-![Diagrame de sequence](diagramme-d'activite.png)
+![Diagrame de sequence](Diagrammes/diagramme-d'activite.png)
 
