@@ -78,3 +78,8 @@ Voici un diagramme de cas d'utilisation pour un projet de site Web de commerce �
 ## Diagramme de Classe
 Le diagramme de classe pour un site Web de commerce électronique décrit simplement la structure de la classe du site Web de commerce électronique, les attributs, les méthodes ou les opérations, la relation entre les objets.
 ![diagramme-de](diagramme-de-classe.png)
+
+## Diagrammes de sequence
+### Digramme de sequence du Website
+!(diagramme-de-sequence.png)
+
