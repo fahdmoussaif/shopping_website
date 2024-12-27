@@ -81,5 +81,5 @@ Le diagramme de classe pour un site Web de commerce électronique décrit simple
 
 ## Diagrammes de sequence
 ### Digramme de sequence du Website
-!(diagramme-de-sequence.png)
+![Diagrame de sequence](diagramme-de-sequence.png)
 
