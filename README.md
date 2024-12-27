@@ -73,3 +73,4 @@
 
 ## Diagramme de Cas d'Utilisation
 (Un espace réservé pour insérer le diagramme. Ajoutez l’image réelle ou des instructions pour son inclusion.)
+![diagramme-d'utilisation](diagramme-d'utilisation.jpeg)
