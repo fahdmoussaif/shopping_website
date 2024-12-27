@@ -1,64 +1,75 @@
-1. Présentation du projet
-Nom du projet : Online Shopping Platform
-Description : Création d'une plateforme de shopping en ligne permettant aux utilisateurs d'acheter, de vendre, et de gérer des produits dans plusieurs catégories.
-Technologie principale : Python (Django Framework)
-Public cible : Tout utilisateur ayant accès à Internet.
+# Plateforme de Shopping en Ligne
 
-2. Objectifs du site
-Permettre aux utilisateurs de parcourir des produits, de les ajouter à leur panier et de les acheter.
-Fournir une interface pour que les administrateurs gèrent les produits, commandes, et utilisateurs.
-Assurer une expérience utilisateur fluide et intuitive.
-Garantir la sécurité des transactions et des données utilisateur.
+## Présentation du Projet
+**Nom :** Plateforme de Shopping en Ligne  
+**Description :** Une plateforme complète de shopping en ligne permettant aux utilisateurs d'acheter, de vendre et de gérer des produits dans plusieurs catégories.  
+**Technologie principale :** Python (Django Framework)  
+**Public cible :** Tout utilisateur ayant accès à Internet.
 
-3. Fonctionnalités principales:
+---
 
-a) Accueil
-Slider mettant en avant des promotions.
-Produits les plus populaires/recommandés.
-Barre de recherche avancée.
+## Objectifs
+- Permettre aux utilisateurs de parcourir des produits, de les ajouter à leur panier et de les acheter.
+- Fournir une interface pour les administrateurs afin de gérer les produits, commandes et utilisateurs.
+- Assurer une expérience utilisateur fluide et intuitive.
+- Garantir la sécurité des transactions et la protection des données des utilisateurs.
 
-b) Catalogue des produits
-Liste des produits par catégories.
-Filtres : prix, marque, note des utilisateurs, etc.
-Tri : prix croissant, popularité, etc.
+---
 
-c) Fiche produit
-Détails du produit : titre, description, images, prix.
-Avis des utilisateurs (évaluations et commentaires).
-Boutons : "Ajouter au panier" et "Acheter maintenant".
+## Fonctionnalités Principales
 
-d) Panier
-Liste des produits ajoutés avec détails.
-Bouton "Procéder au paiement".
-Calcul automatique des sous-totaux, frais de livraison et total.
+### 1. Page d'Accueil
+- **Slider Promotionnel :** Mise en avant des offres et promotions.
+- **Produits Recommandés :** Présentation des articles populaires ou suggérés.
+- **Barre de Recherche Avancée :** Recherche rapide et efficace.
 
-e) Paiement
-Intégration de méthodes de paiement : carte bancaire, PayPal, etc.
-Résumé de commande avant validation.
+### 2. Catalogue des Produits
+- **Organisation par Catégories :** Liste des produits triés par catégories.
+- **Filtres :** Prix, marque, note des utilisateurs, etc.
+- **Tri :** Prix (croissant/décroissant), popularité, et autres.
 
-f) Compte utilisateur
-Inscription/Connexion via email et mot de passe.
-Historique des commandes.
-Gestion du profil : nom, adresse, téléphone.
+### 3. Fiche Produit
+- **Informations Détailées :** Titre, description, images, prix.
+- **Avis des Utilisateurs :** Évaluations et commentaires.
+- **Boutons d'Action :** "Ajouter au panier" et "Acheter maintenant".
 
-4. Architecture technique
-   
-4.1. Technologies utilisées
-Back-end : Python (Django REST Framework pour l'API).
-Front-end : Django Templates, Bootstrap
-Base de données : MySQL.
-Hébergement : AWS, Heroku, ou autre service cloud.
-Stockage des médias : AWS S3 ou similaire.
+### 4. Panier
+- **Aperçu des Produits :** Liste des articles ajoutés avec leurs détails.
+- **Bouton de Paiement :** Redirection vers la page de paiement.
+- **Calculs Automatiques :** Sous-total, frais de livraison et total.
 
-4.2. Sécurité
-Utilisation de HTTPS pour le chiffrement des données.
-Gestion sécurisée des mots de passe avec django.contrib.auth.
-Protection contre les attaques CSRF et XSS.
-Validation stricte des données utilisateur.
+### 5. Paiement
+- **Méthodes Disponibles :** Intégration avec carte bancaire, PayPal, etc.
+- **Résumé de Commande :** Affiché avant la validation finale.
 
-4.3. Modules tiers
-django-allauth : pour l'authentification.
-django-crispy-forms : pour la gestion des formulaires.
-Stripe/PayPal SDK : pour les paiements en ligne.
+### 6. Compte Utilisateur
+- **Inscription/Connexion :** Via email et mot de passe.
+- **Historique des Commandes :** Suivi des achats passés.
+- **Gestion du Profil :** Mise à jour du nom, adresse, téléphone, etc.
 
-Diagramme de cas d'utilisation d'un projet de site Web de commerce électronique
+---
+
+## Architecture Technique
+
+### 1. Technologies Utilisées
+- **Back-end :** Python (Django REST Framework pour l'API).
+- **Front-end :** Templates Django, Bootstrap.
+- **Base de Données :** MySQL.
+- **Hébergement :** AWS, Heroku ou autre service cloud.
+- **Stockage des Médias :** AWS S3 ou similaire.
+
+### 2. Sécurité
+- **Chiffrement HTTPS :** Pour sécuriser les transmissions de données.
+- **Gestion des Mots de Passe :** Via `django.contrib.auth`.
+- **Protection Contre les Attaques :** Défense contre les attaques CSRF et XSS.
+- **Validation des Données :** Contrôles stricts des entrées utilisateur.
+
+### 3. Modules Tiers
+- `django-allauth` : Pour l'authentification et la gestion des utilisateurs.
+- `django-crispy-forms` : Pour une gestion optimisée des formulaires.
+- SDK Stripe/PayPal : Pour des paiements en ligne sécurisés.
+
+---
+
+## Diagramme de Cas d'Utilisation
+(Un espace réservé pour insérer le diagramme. Ajoutez l’image réelle ou des instructions pour son inclusion.)
