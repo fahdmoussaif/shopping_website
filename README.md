@@ -80,6 +80,10 @@ Le diagramme de classe pour un site Web de commerce électronique décrit simple
 ![diagramme-de](diagramme-de-classe.png)
 
 ## Diagrammes de sequence
-### Digramme de sequence du Website
+### Diagramme de sequence du Website
 ![Diagrame de sequence](diagramme-de-sequence.png)
+### Diagramme de sequence d'Admin
+![Diagrame de sequence](diagramme-de-sequence-admin.png)
+### Diagramme de sequence de Paiment
+![Diagrame de sequence](diagramme-de-sequence-paiment.png)
 
