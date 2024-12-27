@@ -1,0 +1,9 @@
+<!-- store/templates/store/cart.html -->
+<h1>Your Cart</h1>
+<ul>
+    {% for item in cart_items %}
+    <li>{{ item.product.name }} x {{ item.quantity }} - ${{ item.product.price * item.quantity }}</li>
+    {% endfor %}
+</ul>
+<p>Total: ${{ total_amount }}</p>
+<button>Checkout</button>
