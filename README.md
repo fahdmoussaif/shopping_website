@@ -72,5 +72,9 @@
 ---
 
 ## Diagramme de Cas d'Utilisation
-(Un espace réservé pour insérer le diagramme. Ajoutez l’image réelle ou des instructions pour son inclusion.)
+Voici un diagramme de cas d'utilisation pour un projet de site Web de commerce électronique :
 ![diagramme-d'utilisation](diagramme-d'utilisation.jpeg)
+
+## Diagramme de Classe
+Le diagramme de classe pour un site Web de commerce électronique décrit simplement la structure de la classe du site Web de commerce électronique, les attributs, les méthodes ou les opérations, la relation entre les objets.
+![diagramme-de](diagramme-de-classe.png)
